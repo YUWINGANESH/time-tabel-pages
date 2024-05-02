@@ -1,0 +1,89 @@
+body::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.faculty-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.form-group {
+    padding: 20px;
+    
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left:20px ;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/* Add styles for header, main, and footer */
+header {
+    background-color: #283747;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    padding: 0;
+}
+
+h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d9b33;
+}
+
+ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li strong {
+    margin-right: 5px;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
